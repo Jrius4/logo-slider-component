@@ -4,7 +4,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import data from "./data";
 import "./style.css";
 
-class Alice extends React.Component { 
+class SliderComponent extends React.Component { 
 
   responsive={
     0:{items:2},
@@ -53,4 +53,4 @@ render(){
 
 }
 
-export default Alice;
+export default SliderComponent;

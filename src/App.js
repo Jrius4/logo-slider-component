@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Alice from './Alice';
+import SliderComponent from './SliderComponent';
 import './App.css';
 
 export default class App extends Component {
@@ -7,7 +7,7 @@ export default class App extends Component {
     return (
       <div>
 
-        <Alice/>
+        <SliderComponent/>
         
       </div>
     )
